@@ -1,0 +1,42 @@
+.main {
+    background-color: #ffffff;
+}
+
+nav {
+    background: #ededed40;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #202023;
+    font-size: 1em;
+    font-weight: 500;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.active {
+    background-color: #0d6efd;
+    border-radius: 5px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    text-decoration-line: underline;
+}
+
+.greating {
+    background-color: #0d6efd;
+    padding: 13px 6px 13px 6px;
+    border-radius: 5px;
+    color: white;
+}
+
+.underline {
+    border-bottom: 5px solid #202023;
+}
